@@ -1,6 +1,6 @@
 @# Callout
 
-__Callouts__ visually highlight important content for the user. They may contain
+**Callouts** visually highlight important content for the user. They may contain
 a title, an icon and content. Each intent has a default icon associated with it.
 
 @reactExample CalloutExample

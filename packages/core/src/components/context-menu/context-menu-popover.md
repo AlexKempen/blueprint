@@ -12,7 +12,7 @@ The APIs described on this page are lower-level and have some limitations compar
 
 </div>
 
-__ContextMenuPopover__ is a lower-level API for [ContextMenu](#core/components/context-menu) which does not hook up any
+**ContextMenuPopover** is a lower-level API for [ContextMenu](#core/components/context-menu) which does not hook up any
 interaction handlers for you and simply renders an opinionated [Popover](#core/components/popover) at a particular
 target offset on the page through a [Portal](#core/components/portal).
 

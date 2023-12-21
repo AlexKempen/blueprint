@@ -1,8 +1,8 @@
 @# Toast
 
-A __Toast__ is a lightweight, ephemeral notice from an application in direct response to a user's action.
+A **Toast** is a lightweight, ephemeral notice from an application in direct response to a user's action.
 
-__Toasts__ can be configured to appear at either the top or the bottom of an application window, and it is possible to
+**Toasts** can be configured to appear at either the top or the bottom of an application window, and it is possible to
 have more than one toast onscreen at a time.
 
 @reactExample ToastExample
@@ -11,7 +11,7 @@ have more than one toast onscreen at a time.
 
 @### Toast
 
-__Toasts__ have a built-in timeout of five seconds. Users can also dismiss them manually by clicking the &times; button.
+**Toasts** have a built-in timeout of five seconds. Users can also dismiss them manually by clicking the &times; button.
 Hovering the cursor over a toast prevents it from disappearing. When the cursor leaves the toast, the toast's timeout restarts.
 Similarly, focusing the toast (for example, by hitting the `tab` key) halts the timeout, and blurring restarts the timeout.
 
@@ -23,14 +23,15 @@ You can also apply the same visual intent styles to `Toast`s that you can to [`B
 
 @### OverlayToaster
 
-The __OverlayToaster__ component (previously named __Toaster__) is a stateful container for a single list of toasts.
-Internally, it uses [__Overlay__](#core/components/overlay) to manage children and transitions. It can be vertically
+The **OverlayToaster** component (previously named **Toaster**) is a stateful container for a single list of toasts.
+Internally, it uses [**Overlay**](#core/components/overlay) to manage children and transitions. It can be vertically
 aligned along the top or bottom edge of its container (new toasts will slide in from that edge) and
 horizontally aligned along the left edge, center, or right edge of its container.
 
-There are three ways to use __OverlayToaster__:
+There are three ways to use **OverlayToaster**:
 
-1. __Recommended__: use the `OverlayToaster.createAsync()` static method to create a new `Toaster` instance:
+1. **Recommended**: use the `OverlayToaster.createAsync()` static method to create a new `Toaster` instance:
+
     ```ts
     const myToaster: Toaster = await OverlayToaster.createAsync({ position: "bottom" });
     myToaster.show({ ...toastOptions });
@@ -44,6 +45,7 @@ There are three ways to use __OverlayToaster__:
     const myToaster: Toaster = OverlayToaster.create({ position: "bottom" });
     myToaster.show({ ...toastOptions });
     ```
+
 2. Render an `<OverlayToaster>` with `<Toast>` children:
     ```ts
     render(
@@ -76,19 +78,18 @@ prevent overlap.
 <div class="@ns-callout @ns-intent-primary @ns-icon-info-sign @ns-callout-has-body-content">
     <h5 class="@ns-heading">Toaster focus</h5>
 
-__OverlayToaster__ always disables Overlay's `enforceFocus` behavior (meaning that you're not blocked
+**OverlayToaster** always disables Overlay's `enforceFocus` behavior (meaning that you're not blocked
 from accessing other parts of the application while a toast is active), and by default also
 disables `autoFocus` (meaning that focus will not switch to a toast when it appears). You can
 enable `autoFocus` for an individual `OverlayToaster` via a prop, if desired.
 
 </div>
 
-
 @interface OverlayToasterProps
 
 @## Static usage
 
-__OverlayToaster__ provides the static `createAsync` method that returns a new `Toaster`, rendered into an
+**OverlayToaster** provides the static `createAsync` method that returns a new `Toaster`, rendered into an
 element attached to `<body>`. A toaster instance has a collection of methods to show and hide toasts in its given container.
 
 ```ts
@@ -193,7 +194,6 @@ const toaster = await OverlayToaster.createAsync(toasterProps, {
 
 toaster.show({ message: "Hello React 18!" })
 ```
-
 
 @## React component usage
 

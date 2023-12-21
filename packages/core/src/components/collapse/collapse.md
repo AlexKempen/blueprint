@@ -1,6 +1,6 @@
 @# Collapse
 
-The __Collapse__ element shows and hides content with a built-in slide in/out animation.
+The **Collapse** element shows and hides content with a built-in slide in/out animation.
 You might use this to create a panel of settings for your application, with sub-sections
 that can be expanded and collapsed.
 

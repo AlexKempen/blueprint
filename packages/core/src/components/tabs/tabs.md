@@ -1,6 +1,6 @@
 @# Tabs
 
-The __Tabs__ component allows you to switch between displaying multiple panels of content.
+The **Tabs** component allows you to switch between displaying multiple panels of content.
 
 @reactExample TabsExample
 
@@ -43,11 +43,11 @@ Insert a `<TabsExpander />` between any two children to right-align all subseque
 
 @### Tab
 
-The __Tab__ component is a minimal wrapper with no functionality of its own&mdash;it is managed entirely by its
-parent __Tabs__ component. Tab title text can be set either via `title` prop or via React children
+The **Tab** component is a minimal wrapper with no functionality of its own&mdash;it is managed entirely by its
+parent **Tabs** component. Tab title text can be set either via `title` prop or via React children
 (for more complex content).
 
-The associated tab `panel` will be visible when the _Tab__ is active. Omitting the `panel` prop is supported; this can
+The associated tab `panel` will be visible when the \_Tab\_\_ is active. Omitting the `panel` prop is supported; this can
 be useful when you want the associated panel to appear elsewhere in the DOM (by rendering it yourself as needed).
 
 @interface TabProps

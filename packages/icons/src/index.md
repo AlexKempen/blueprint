@@ -5,7 +5,7 @@ reference: icons
 @# Icons
 
 The [**@blueprintjs/icons** NPM package](https://www.npmjs.com/package/@blueprintjs/icons)
-provides  provides over 500 vector UI icons in two sizes (16px and 20px) and two formats (SVG and fonts).
+provides provides over 500 vector UI icons in two sizes (16px and 20px) and two formats (SVG and fonts).
 
 <div class="@ns-callout @ns-intent-primary @ns-icon-info-sign">
 

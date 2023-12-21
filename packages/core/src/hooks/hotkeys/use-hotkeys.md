@@ -3,12 +3,12 @@
 <div class="@ns-callout @ns-intent-primary @ns-icon-info-sign @ns-callout-has-body-content">
     <h5 class="@ns-heading">
 
-Migrating from [__HotkeysTarget__](#core/legacy/hotkeys-legacy)?
+Migrating from [**HotkeysTarget**](#core/legacy/hotkeys-legacy)?
 
 </h5>
 
-`useHotkeys` is a replacement for __HotkeysTarget__. You are encouraged to use this new API in your function
-components, or the [__HotkeysTarget2__ component](#core/components/hotkeys-target2) in your component classes,
+`useHotkeys` is a replacement for **HotkeysTarget**. You are encouraged to use this new API in your function
+components, or the [**HotkeysTarget2** component](#core/components/hotkeys-target2) in your component classes,
 as they will become the standard APIs in a future major version of Blueprint. See the full
 [migration guide](https://github.com/palantir/blueprint/wiki/HotkeysTarget-&-useHotkeys-migration) on the wiki.
 
@@ -24,7 +24,7 @@ Focus on the piano below to try its hotkeys. The global hotkeys dialog can be sh
 
 @## Usage
 
-First, make sure [__HotkeysProvider__](#core/context/hotkeys-provider) is configured correctly at the root of your
+First, make sure [**HotkeysProvider**](#core/context/hotkeys-provider) is configured correctly at the root of your
 React application.
 
 Then, to register hotkeys and generate the relevant event handlers, use the hook like so:
@@ -64,7 +64,7 @@ export default function() {
 }
 ```
 
-__Important__: the `hotkeys` array must be memoized, as shown above, to prevent the hook from re-binding
+**Important**: the `hotkeys` array must be memoized, as shown above, to prevent the hook from re-binding
 hotkeys on every render.
 
 Hotkeys must define a group, or be marked as global. The hook will automatically bind global event handlers

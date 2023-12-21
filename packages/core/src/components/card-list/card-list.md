@@ -4,7 +4,7 @@ tag: new
 
 @# Card List
 
-__CardList__ is a lightweight wrapper around the [__Card__](#core/components/card) component. It can be used to
+**CardList** is a lightweight wrapper around the [**Card**](#core/components/card) component. It can be used to
 visually group together cards in a list without any excess visual weight around or between them. Long lists may
 be styled with CSS to scroll vertically.
 
@@ -27,8 +27,8 @@ import { Card, CardList } from "@blueprintjs/core";
 
 @## Combining with Section
 
-__CardList__ may be used as content for the [__Section__](#core/components/section) component (inside a nested
-__SectionCard__). This allows support for features like a title & description above the list.
+**CardList** may be used as content for the [**Section**](#core/components/section) component (inside a nested
+**SectionCard**). This allows support for features like a title & description above the list.
 
 Set the same value for `<SectionCard padded>` and `<CardList bordered>` (either `true` or `false` for both) to get two
 different kinds of appearances.
